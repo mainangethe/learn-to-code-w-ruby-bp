@@ -37,3 +37,12 @@ puts "2. Retrieving based on Keys"
 p nfl_roster["Tony Romo"]
 
 p nba_roster["Golden State Warriors"]
+
+# Let's create a restaurant menu as a hash
+
+p loft_kitchen_breakfast_menu = {
+                    :chai => 20,
+                    :chai_kubwa => 25,
+                    :kahawa => 35,
+                    :mandazi => 10
+                    }

@@ -4,7 +4,7 @@ salaries = {
             diretor: 1000000,
             producer: 2000000,
             ceo: 3000000
-}
+            }
 
 salaries.each_key do |position|
     puts "Employee Records: ------"
