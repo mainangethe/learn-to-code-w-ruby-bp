@@ -99,7 +99,7 @@ The third is iterating through the hash and retrieving everything or specific as
 
 ```
 
-## 3. The Ampersand Method
+## 3. Updating a Hash
 To update a hash pair, you use the assignment operator "="
 
 
