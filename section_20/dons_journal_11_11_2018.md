@@ -8,11 +8,11 @@
 
 I learnt about how to create class variables & class methods, and that in Ruby you can customize existing classes (Monkey Patching)
 
-[!MonkeyPatching]-##Monkey Patching
-[!Creating Class Variables & Class Methods]-##Creating Class Variables & Class Methods
+- [MonkeyPatching](#Heading-1)
+- [Creating Class Variables & Class Methods](#Heading-2)
 
 
-##-Monkey Patching
+## Monkey Patching
 This is the practice of modifying an existing class.
 You can do it to user created classes or even Ruby's.
 To monkey patch a class, all you need is to duplicate it's existing name in your class name.
@@ -20,7 +20,7 @@ When you monkey patch, all previous and future objects get access to the modific
 Ruby normally groups all the class definition to one before running it's operations.
 
 *Example*
-```
+```ruby
     # Let's monkey patch an existing Ruby class
     # The Fixnum class to be able to manipulate time
 
@@ -54,7 +54,7 @@ Ruby normally groups all the class definition to one before running it's operati
 ```
 
 
-##-Using Class Variables & Class Variables
+## Using Class Variables & Class Variables
 Sometimes there is a common property within objects that can lead to duplicates in information. In such cases we can make use of class variables to store that information so that there is no need to duplicate.
 To create a class variable, we use two(2) "@" sigil symbols
 
@@ -63,7 +63,7 @@ It can be called with or without an object existing.
 To create a class method we use the "self" keyword.
 
 *Example*
-```
+```ruby
     # Let's create an Employee class that has several methods
 
     class Employee
