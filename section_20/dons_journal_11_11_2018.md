@@ -8,8 +8,8 @@
 
 I learnt about how to create class variables & class methods, and that in Ruby you can customize existing classes (Monkey Patching)
 
-- [MonkeyPatching](#Heading-1)
-- [Creating Class Variables & Class Methods](#Heading-2)
+- [MonkeyPatching](#monkey-patching)
+- [Creating Class Variables & Class Methods](#using-class-variables--class-variables)
 
 
 ## Monkey Patching
