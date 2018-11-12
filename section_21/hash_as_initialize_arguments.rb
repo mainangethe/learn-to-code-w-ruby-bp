@@ -25,7 +25,7 @@ nairobi_sen_hash =
     {
         name: "Mr. Johnston Sakaja",
         occupation: "Senator - Nairobi",
-        bigrthplace: "Ruongo, Kisumu",
+        birthplace: "Ruongo, Kisumu",
         age: 32,
         hobby: "Traveling"
     }
